@@ -1,8 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-size: 18 px;
+  background-color: rgb(238, 212, 202);
+}
 .container {
   width: 100%;
+
+  margin: 10 px;
 }
 .form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
+  height: 200px;
+}
+.inputText {
+  width: 400px;
+  background-color: rgb(236, 231, 210);
+}
+.inputNumber {
+  background-color: burlywood;
+}
+.inputBtn {
+  background-color: rgb(98, 78, 52);
 }
